@@ -8,6 +8,7 @@ public class electricbillCalculator {
 char again = 'Y';
      do{   System.out.println("Enter electric units: ");
         int units = sc.nextInt();
+
         double result;
 
         if (units <= 100) {
